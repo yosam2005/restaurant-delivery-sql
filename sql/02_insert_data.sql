@@ -29,3 +29,8 @@ COPY items(order_id, item_name, quantity, price)
 FROM 'C:/Postgres Project/restaurant-delivery-sql/data/items.csv'
 DELIMITER ','
 CSV HEADER;
+
+COPY deliveries(order_id, delivery_date, delivery_status)
+FROM 'C:/Postgres Project/restaurant-delivery-sql/data/deliveries.csv'
+DELIMITER ','
+CSV HEADER;

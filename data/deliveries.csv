@@ -1,0 +1,6 @@
+﻿order_id,delivery_date,delivery_status 
+1,2025-11-01,delivered
+2,2025-11-02,delivered
+3,,pending
+4,2025-11-04,delivered
+5,,pending
